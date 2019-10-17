@@ -15,9 +15,6 @@ from transformer.transformer import Transformer
 from utils import parse_args, save_checkpoint, AverageMeter, clip_gradient
 
 
-# from torch import nn
-
-
 def train_net(args):
     torch.manual_seed(7)
     np.random.seed(7)
