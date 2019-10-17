@@ -75,11 +75,11 @@ def get_data(in_file, out_file):
     samples = []
 
     for i in tqdm(range(len(in_lines))):
-        sentence_zh = out_lines[i].strip()
+        sentence_zh = in_lines[i].strip()
         tokens = jieba.cut(sentence_zh.strip())
         in_data = encode_text(src_char2idx, tokens)
 
-        sentence_en = in_lines[i].strip().lower()
+        sentence_en = out_lines[i].strip().lower()
         tokens = [normalizeString(s.strip()) for s in nltk.word_tokenize(sentence_en)]
         out_data = [sos_id] + encode_text(tgt_char2idx, tokens) + [eos_id]
 
