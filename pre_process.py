@@ -1,6 +1,6 @@
 import pickle
 from collections import Counter
-
+import os
 import jieba
 import nltk
 from tqdm import tqdm
@@ -88,22 +88,32 @@ def get_data(in_file, out_file):
 
 
 if __name__ == '__main__':
-    src_char2idx, src_idx2char = process(train_translation_en_filename, lang='en')
-    tgt_char2idx, tgt_idx2char = process(train_translation_zh_filename, lang='zh')
+    if os.path.isfile(vocab_file):
+        with open(vocab_file, 'rb') as file:
+            data = pickle.load(file)
 
-    print(len(src_char2idx))
-    print(len(tgt_char2idx))
+        src_char2idx = data['dict']['src_char2idx']
+        src_idx2char = data['dict']['src_idx2char']
+        tgt_char2idx = data['dict']['tgt_char2idx']
+        tgt_idx2char = data['dict']['tgt_idx2char']
 
-    data = {
-        'dict': {
-            'src_char2idx': src_char2idx,
-            'src_idx2char': src_idx2char,
-            'tgt_char2idx': tgt_char2idx,
-            'tgt_idx2char': tgt_idx2char
+    else:
+        src_char2idx, src_idx2char = process(train_translation_en_filename, lang='en')
+        tgt_char2idx, tgt_idx2char = process(train_translation_zh_filename, lang='zh')
+
+        print(len(src_char2idx))
+        print(len(tgt_char2idx))
+
+        data = {
+            'dict': {
+                'src_char2idx': src_char2idx,
+                'src_idx2char': src_idx2char,
+                'tgt_char2idx': tgt_char2idx,
+                'tgt_idx2char': tgt_idx2char
+            }
         }
-    }
-    with open(vocab_file, 'wb') as file:
-        pickle.dump(data, file)
+        with open(vocab_file, 'wb') as file:
+            pickle.dump(data, file)
 
     train = get_data(train_translation_en_filename, train_translation_zh_filename)
     valid = get_data(valid_translation_en_filename, valid_translation_zh_filename)
