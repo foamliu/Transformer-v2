@@ -1,6 +1,7 @@
+import os
 import pickle
 from collections import Counter
-import os
+
 import jieba
 import nltk
 from tqdm import tqdm
@@ -74,12 +75,12 @@ def get_data(in_file, out_file):
     samples = []
 
     for i in tqdm(range(len(in_lines))):
-        sentence_en = in_lines[i].strip().lower()
-        tokens = [normalizeString(s.strip()) for s in nltk.word_tokenize(sentence_en)]
-        in_data = encode_text(src_char2idx, tokens)
-
         sentence_zh = out_lines[i].strip()
         tokens = jieba.cut(sentence_zh.strip())
+        in_data = encode_text(src_char2idx, tokens)
+
+        sentence_en = in_lines[i].strip().lower()
+        tokens = [normalizeString(s.strip()) for s in nltk.word_tokenize(sentence_en)]
         out_data = [sos_id] + encode_text(tgt_char2idx, tokens) + [eos_id]
 
         if len(in_data) < maxlen_in and len(out_data) < maxlen_out and unk_id not in in_data and unk_id not in out_data:
@@ -98,8 +99,8 @@ if __name__ == '__main__':
         tgt_idx2char = data['dict']['tgt_idx2char']
 
     else:
-        src_char2idx, src_idx2char = process(train_translation_en_filename, lang='en')
-        tgt_char2idx, tgt_idx2char = process(train_translation_zh_filename, lang='zh')
+        src_char2idx, src_idx2char = process(train_translation_zh_filename, lang='zh')
+        tgt_char2idx, tgt_idx2char = process(train_translation_en_filename, lang='en')
 
         print(len(src_char2idx))
         print(len(tgt_char2idx))
@@ -115,8 +116,8 @@ if __name__ == '__main__':
         with open(vocab_file, 'wb') as file:
             pickle.dump(data, file)
 
-    train = get_data(train_translation_en_filename, train_translation_zh_filename)
-    valid = get_data(valid_translation_en_filename, valid_translation_zh_filename)
+    train = get_data(train_translation_zh_filename, train_translation_en_filename)
+    valid = get_data(valid_translation_zh_filename, valid_translation_en_filename)
 
     data = {
         'train': train,

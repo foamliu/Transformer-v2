@@ -13,8 +13,8 @@ data_file = 'data.pkl'
 vocab_file = 'vocab.pkl'
 n_src_vocab = 15000
 n_tgt_vocab = 15000  # target
-maxlen_in = 100
-maxlen_out = 50
+maxlen_in = 50
+maxlen_out = 100
 # Training parameters
 grad_clip = 1.0  # clip gradients at an absolute value of
 print_freq = 50  # print training/validation stats  every __ batches
