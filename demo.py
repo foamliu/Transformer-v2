@@ -45,8 +45,8 @@ if __name__ == '__main__':
         input = torch.from_numpy(np.array(sentence_in, dtype=np.long)).to(device)
         input_length = torch.LongTensor([len(sentence_in)]).to(device)
 
-        sentence_in = ' '.join([src_idx2char[idx] for idx in sentence_in])
-        sentence_out = ''.join([tgt_idx2char[idx] for idx in sentence_out])
+        sentence_in = ''.join([src_idx2char[idx] for idx in sentence_in])
+        sentence_out = ' '.join([tgt_idx2char[idx] for idx in sentence_out])
         sentence_out = sentence_out.replace('<sos>', '').replace('<eos>', '')
         print('< ' + sentence_in)
         print('= ' + sentence_out)
