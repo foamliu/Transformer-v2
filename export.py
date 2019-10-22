@@ -13,7 +13,7 @@ if __name__ == '__main__':
     model = checkpoint['model']
     print(type(model))
 
-    filename = 'transformer.pt'
+    filename = 'transformer-v2.pt'
     print('saving {}...'.format(filename))
     start = time.time()
     torch.save(model.state_dict(), filename)

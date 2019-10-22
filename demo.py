@@ -10,7 +10,7 @@ from config import device, logger, data_file, vocab_file
 from transformer.transformer import Transformer
 
 if __name__ == '__main__':
-    filename = 'transformer.pt'
+    filename = 'transformer-v2.pt'
     print('loading {}...'.format(filename))
     start = time.time()
     model = Transformer()
