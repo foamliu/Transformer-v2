@@ -58,7 +58,7 @@ if __name__ == '__main__':
         for hyp in nbest_hyps:
             out = hyp['yseq']
             out = [tgt_idx2char[idx] for idx in out]
-            out = ''.join(out)
+            out = ' '.join(out)
             out = out.replace('<sos>', '').replace('<eos>', '')
 
             print('> {}'.format(out))
