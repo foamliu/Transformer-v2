@@ -45,35 +45,36 @@ $ python demo.py
 
 <pre>
 
-< 我没有注意到我的妻子是否在床上。
-=  i did not notice if my wife was in bed  .
->   i did n t notice if my wife was in bed  .
-< 我知道你们都需要我，但我需要你们时我会打电话。
-=  and i know you all need me   but i  ll call you if i need any of you  .
->   i know you all need me   but i  ll call you when i need you  .
-< 在距离南美海岸700英里的地方
-=  lying over   miles off the coast of south america
->     miles from south america coast
-< 必须找到他记得让他给我回电话。
-=  you do that and you tell him to call me  .
->   we have to find him   remember him to call me back  .
-< 所以我没兴趣听什么演员来演讲。
-=  so i  m not really interested in having some actor lecture me  .
->   so i  m not interested in hearing a speech  .
-< 今晚你可以把电脑拿到厨房来用
-=  you can use the computer right here in the kitchen tonight
->   you can take your computer to the kitchen tonight
-< 我以前从没穿过这件西装所以没发现过。
-=  i never found it  cause i have n t worn this suit before  .
->   i  ve never been through this suit before  .
-< 我们做了什么？他做了什么？他都跟你说了什么？
-=  what did we do  ? what did he do  ? what  d he tell you  ?
->   what did we do  ? what did he do  ? what did he tell you  ?
-< 像你这样的人是如何有了这么大的一家公司的呢？
-=  how exactly did a guy like you get to own a major corporation  ?
->   how does a guy like you have such a company  ?
-< 我们只要知道它在那儿。我们只要知道它很安全。
-=  we need to know it  s there  . we need to know it  s safe  .
->   we just need to know it  s there  . we just need to know it  s safe  .
+< 是多次击打头部…… 是谁干的。
+=  repeated banging to the head  . . .  . as to who did it  .
+>   it  s a couple of times shooting  . . . who did  .
+< 我自己都不想去描述。不怎么好看。
+=  i do n t wan na think about what that looks like  . it  s not pretty  .
+>   i do n t even want to describe myself  . it  s not so good  .
+< 不过坏消息是你不够钱雇我了。
+=  the bad news is that you ca n t afford me anymore  .
+>   but the bad news is you  re not enough to hire me  .
+< 他不接电话。我有点担心。
+=  he  s not answering his cell  . i  m kind of freaking out  .
+>   he  s not answering the phone  . i  m worried  .
+< 什么女人啊，就是她跟着我们。
+=  what a major bitch  . she  s the one who followed us  .
+>   what woman   she  s following us  .
+< 回到那里让我意识到这里才是我想呆的地方。
+=  being back there made me realize this is where want to be  .
+>   back there and make me realize where i want to stay  .
+< 他怎么用" 试验中收集的其他数据" 做到的。
+=  along with the rest of the data collected during the experiment  .
+>   how did he collect other data of data in the experiment  .
+< 我们得确保在这手术没做之前
+=  we need to make sure this whole thing does n t fall apart
+>   we need to make sure that we do n t have anything
+< 是的。但是不要告诉别人是我告诉你的。噢，我不会。
+=  yes  . but do n t tell anyone i told you  . oh   i wo n t  .
+>   yeah  . but do n t tell anyone i told you  . oh   i wo n t  .
+< 抱歉，只是个恶梦。几点了？
+=  sorry  . it was just a bad dream  . what time is it  ?
+>   sorry  . it  s just a nightmare  . what time is it  ?
+
 
 </pre>
