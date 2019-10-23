@@ -5,8 +5,9 @@ import time
 
 import numpy as np
 import torch
+from nltk.tokenize.treebank import TreebankWordDetokenizer
 
-from config import device, logger, data_file, vocab_file
+from config import device, logger, data_file, vocab_file, sos_id, eos_id
 from transformer.transformer import Transformer
 
 if __name__ == '__main__':
@@ -37,6 +38,7 @@ if __name__ == '__main__':
     logger.info('elapsed: {:.4f} seconds'.format(elapsed))
 
     samples = random.sample(samples, 10)
+    detokenizer = TreebankWordDetokenizer()
 
     for sample in samples:
         sentence_in = sample['in']
@@ -46,8 +48,8 @@ if __name__ == '__main__':
         input_length = torch.LongTensor([len(sentence_in)]).to(device)
 
         sentence_in = ''.join([src_idx2char[idx] for idx in sentence_in])
-        sentence_out = ' '.join([tgt_idx2char[idx] for idx in sentence_out])
-        sentence_out = sentence_out.replace('<sos>', '').replace('<eos>', '')
+        sentence_out = ' '.join([tgt_idx2char[idx] for idx in sentence_out if idx not in [sos_id, eos_id]])
+        sentence_out = detokenizer.detokenize(sentence_out)
         print('< ' + sentence_in)
         print('= ' + sentence_out)
 
@@ -57,8 +59,7 @@ if __name__ == '__main__':
 
         for hyp in nbest_hyps:
             out = hyp['yseq']
-            out = [tgt_idx2char[idx] for idx in out]
-            out = ' '.join(out)
-            out = out.replace('<sos>', '').replace('<eos>', '')
+            out = [tgt_idx2char[idx] for idx in out if idx not in [sos_id, eos_id]]
+            out = detokenizer.detokenize(out)
 
             print('> {}'.format(out))
