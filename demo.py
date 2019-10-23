@@ -48,7 +48,7 @@ if __name__ == '__main__':
         input_length = torch.LongTensor([len(sentence_in)]).to(device)
 
         sentence_in = ''.join([src_idx2char[idx] for idx in sentence_in])
-        sentence_out = ' '.join([tgt_idx2char[idx] for idx in sentence_out if idx not in [sos_id, eos_id]])
+        sentence_out = [tgt_idx2char[idx] for idx in sentence_out if idx not in [sos_id, eos_id]]
         sentence_out = detokenizer.detokenize(sentence_out)
         print('< ' + sentence_in)
         print('= ' + sentence_out)
