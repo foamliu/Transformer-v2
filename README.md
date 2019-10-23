@@ -45,36 +45,35 @@ $ python demo.py
 
 <pre>
 
-< 是多次击打头部…… 是谁干的。
-=  repeated banging to the head  . . .  . as to who did it  .
->   it  s a couple of times shooting  . . . who did  .
-< 我自己都不想去描述。不怎么好看。
-=  i do n t wan na think about what that looks like  . it  s not pretty  .
->   i do n t even want to describe myself  . it  s not so good  .
-< 不过坏消息是你不够钱雇我了。
-=  the bad news is that you ca n t afford me anymore  .
->   but the bad news is you  re not enough to hire me  .
-< 他不接电话。我有点担心。
-=  he  s not answering his cell  . i  m kind of freaking out  .
->   he  s not answering the phone  . i  m worried  .
-< 什么女人啊，就是她跟着我们。
-=  what a major bitch  . she  s the one who followed us  .
->   what woman   she  s following us  .
-< 回到那里让我意识到这里才是我想呆的地方。
-=  being back there made me realize this is where want to be  .
->   back there and make me realize where i want to stay  .
-< 他怎么用" 试验中收集的其他数据" 做到的。
-=  along with the rest of the data collected during the experiment  .
->   how did he collect other data of data in the experiment  .
-< 我们得确保在这手术没做之前
-=  we need to make sure this whole thing does n t fall apart
->   we need to make sure that we do n t have anything
-< 是的。但是不要告诉别人是我告诉你的。噢，我不会。
-=  yes  . but do n t tell anyone i told you  . oh   i wo n t  .
->   yeah  . but do n t tell anyone i told you  . oh   i wo n t  .
-< 抱歉，只是个恶梦。几点了？
-=  sorry  . it was just a bad dream  . what time is it  ?
->   sorry  . it  s just a nightmare  . what time is it  ?
-
+< 我是说，我觉得你俩能说到一起。
+= i mean   i saw the connection between the two of you .
+> i mean   i think you two can talk together .
+< 酒店提供免费无线网络，商务中心和升级豪华套房住宿，让您更加愉快地入住。
+= complimentary wi fi   business center and our upgraded deluxe suite accommodations will make your stay even more enjoyable .
+> the hotel offers free wireless internet   business center and a deluxe suite to make you feel better .
+< 我没有这样想。- 不，你不是荡妇。
+= i do n t think so  .   no   you  re not a slut .
+> i do n t think so  .   no   you  re not a slut .
+< 他将对光芒的恐惧，作为借口困你们于此，
+= he  s trapped you here with fear   fear of the light
+> the fear of the light   as an excuse you here
+< 我们的枪。该死的，少校！拒绝这样的机会！
+= our guns  . damn it   major ! to pass up such a chance !
+> our guns  . damn it   major ! refuse !
+< 他才负责我们婚礼16个小时，
+= he  s been in charge of our wedding for exactly   hours
+> he  s in charge of our wedding for   hours
+< 对你也不想拿着那些玩意到处走。
+= right    cause you do n t wannawalk around with that kind of cabbage .
+> yeah   and you do n t want to walk around with that stuff .
+< 恐怖分子拥有军用级神经毒气。
+= these terrorists have possession of a military   grade nerve agent .
+> the terrorists have military nerve gas .
+< 我要迟到了得走了，
+= i  . . . i  m going to be late   so i better get going
+> i  m late  . i gotta go
+< 呃，我的老板最近也不太好相处。
+= yeah   my boss has n t exactly been a joy to be around lately   either .
+> well   my boss has n t been very good lately .
 
 </pre>
