@@ -46,35 +46,36 @@ $ python demo.py
 
 <pre>
 
-< 我是说，我觉得你俩能说到一起。
-= i mean   i saw the connection between the two of you .
-> i mean   i think you two can talk together .
-< 酒店提供免费无线网络，商务中心和升级豪华套房住宿，让您更加愉快地入住。
-= complimentary wi fi   business center and our upgraded deluxe suite accommodations will make your stay even more enjoyable .
-> the hotel offers free wireless internet   business center and a deluxe suite to make you feel better .
-< 我没有这样想。- 不，你不是荡妇。
-= i do n t think so  .   no   you  re not a slut .
-> i do n t think so  .   no   you  re not a slut .
-< 他将对光芒的恐惧，作为借口困你们于此，
-= he  s trapped you here with fear   fear of the light
-> the fear of the light   as an excuse you here
-< 我们的枪。该死的，少校！拒绝这样的机会！
-= our guns  . damn it   major ! to pass up such a chance !
-> our guns  . damn it   major ! refuse !
-< 他才负责我们婚礼16个小时，
-= he  s been in charge of our wedding for exactly   hours
-> he  s in charge of our wedding for   hours
-< 对你也不想拿着那些玩意到处走。
-= right    cause you do n t wannawalk around with that kind of cabbage .
-> yeah   and you do n t want to walk around with that stuff .
-< 恐怖分子拥有军用级神经毒气。
-= these terrorists have possession of a military   grade nerve agent .
-> the terrorists have military nerve gas .
-< 我要迟到了得走了，
-= i  . . . i  m going to be late   so i better get going
-> i  m late  . i gotta go
-< 呃，我的老板最近也不太好相处。
-= yeah   my boss has n t exactly been a joy to be around lately   either .
-> well   my boss has n t been very good lately .
+< 宝贝，原来你以为我当时说分开。
+= sweetie   you thought that when i said we were splitting up .
+> baby   you thought i was separated .
+< 斯蒂芬，有，有一件重要的事我必须要告诉你。
+= stefan   th   there  s   there  s something important i have to tell you .
+> steve   yes   there  s something important i have to tell you .
+< 本无烟客房配有两张舒适大床，睡眠空间充足。
+= this non smoking room has plenty of sleeping space with two comfortable queen beds .
+> this non smoking room comes with two comfortable queen beds .
+< 我要告诉他们真相你知道的。
+= i  m going to have to tell them you know that .
+> i  m going to tell them the truth   you know .
+< 不过，我觉得想要唤醒她
+= i just think   you know   if you want to wake her up
+> but i think i want to wake her up
+< 你回到家，不说话独自一人痛苦？
+= gets home   does not speak and we will close your troubled world ?
+> you come home   you do n t talk about pain ?
+< 但是上班时，我带你去见他们
+= but on your on   hours i bring you to men
+> but at work   i  ll take you to them
+< 你记得几年前关于我的投票吗？
+= do you remember a few years ago   a vote about me ?
+> do you remember a few years ago about my vote ?
+< 我对比特币的声明做了语言匹配，猜猜我发现了什么？
+= i did a linguistic match on the bitcoin manifesto   and guess what popped up ?
+> i made a language of the language for the word   guess what i found ?
+< 我也有这种感觉，听你这么说我就放心了。
+= for i  m in the humor to  . does me good to hear you .
+> i feel that way too   so i  m glad to hear you say that .
+
 
 </pre>
