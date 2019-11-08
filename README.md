@@ -46,35 +46,35 @@ $ python demo.py
 
 <pre>
 
-< 去柏林的第一班车明早才出发。你现在想干啥？
-= first bus to berlin does n t leave till tomorrow  . what do you wannado ?
-> first bus to berlin is not leaving until morning  . what do you want now ?
-< 呃，是我们朋友…… 他又带个女人同行吗？
-= well   our friend  . . . did he have a woman with him ?
-> uh   it  s our friend  . . . is he bringing a woman ?
-< 我以我的母亲的名义发誓。
-= i swear on the body and soul of my mother .
-> i swear on my mother .
-< 下了班，就搭免费飞机来。
-= get on the plane when you get off work  . you fly for free .
-> when you get off work   you get a free plane .
-< 如果你读完之后能把那本圣经送回我房间。
-= and i  d be grateful if you  d put that bible back in my room .
-> if you finish it   you can send that bible back to my room .
-< 地球没了大气层，就做不了我们的家
-= without its atmosphere   the earth would not be a home to us
-> without the atmosphere   we ca n t have our home
-< 但其中一人背叛了他们。
-= however   one of the seven would betray the other six .
-> but one of them betrayed them .
-< 不过，我想是因为没人在这做过这件事
-= but i guess because no one ever done that before here
-> but i think it  s because no one  s done it here
-< 把自己的朋友带回家也是罪，吗妈？
-= is it a sin to have friends now too mum ?
-> it  s a crime to bring your friends home   mom ?
-< 我要你知道你在和谁作对。我能看到，为什么要出去？
-= to see what you  re up against  . i can see  . why come out ?
-> i want you to know who you  re up against  . i can see that  . why go out ?
+< 你帮我们看一下这里少了些什么东西？
+= just take a look around and you notice anything missing or out of place ?
+> can you take a look at what  s missing here ?
+< 如果告诉了，你我就有大麻烦。
+= if i tell you   i am in deep trouble .
+> if i tell you   i  m in big trouble .
+< 因为你们俩隐瞒了关于昨晚和儿子所谓的争吵之事。
+= with held information from me about the so   called family argument last night .
+> because the two of you were hiding what you said about last night and your son .
+< 他现在的唯一要求就是我们能到选举结束之后再宣布这件事。
+= all he  s asking is that we hold off on the announcement until after the election .
+> his only request now is that we can make the announcement after the election .
+< 但明天还有很长的路要走。我要睡觉。
+= but i got a long road tomorrow  . i need to sleep .
+> but there  s a long way to go tomorrow  . i need to sleep .
+< 我要她知道我跟你一样支持她。
+= and i wanted her to know that you and i were the same in our feelings .
+> i want her to know that i support her just as much as you do .
+< 您会受到家人一般的待遇，在宽敞的客房中感到彻底的放松。
+= rest assured you  ll be treated like family and feel completely relaxed in our spacious rooms .
+> you will feel completely relaxed in a spacious room with family treatment .
+< 好好体会付出感情的滋味吧，或者这是你的第一次呢。
+= and focus more on what it feels like to give love   maybe for the first time in your life .
+> feel what it  s like to give love   or this is your first time .
+< 希望你不要介意。我按过门铃但没人回应。
+= i hope you do n t mind  . i tried to ring the bell   but nobody answered .
+> i hope you do n t mind  . i ring the bell   but no one answered .
+< 所以你为什么不告诉我这到底是怎么回事。
+= so why do n t you just tell me what the hell this is all about .
+> so why do n t you tell me what  s going on .
 
 </pre>
